@@ -20,3 +20,21 @@ The game is implemented in Kotlin, supporting different dice types and allowing 
 role, the current score, and the number of points needed to win. Run simulations for different dice types and display
 logs of game progress and end-of-game statistics, including win percentages by role and player.
 
+## Seega
+
+Seega is a traditional two-player board game from Egypt, played on a square grid with an odd number of spaces. The
+game's rules can be found [here](http://www.cyningstan.com/game/120/seega).
+
+This project implements Seega in Kotlin with a console-based text interface, allowing two players to play on a selected
+board size (5x5, 7x7, or 9x9). The game does not include AI or online play.
+
+Players take turns deploying or moving pieces, with the board displayed in the console after each move. Commands
+include:
+
+Deploy Phase: deploy <square> to place a piece (e.g., deploy b3)
+Move Phase: move <square> <direction> to move a piece (e.g., move d2 up)
+The program provides relevant game state messages, turn information, and end-game results.
+
+The solution includes JUnit 5 tests, proper input/output handling, and clean code architecture, following Kotlin best
+practices. Submit by January 29th as a pull request from a seega-solution branch in a private fork on the faculty's
+GitLab, with the reviewer added as a collaborator.
