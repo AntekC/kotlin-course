@@ -7,3 +7,16 @@ line breaks, lists, horizontal lines, emphasis (italic, bold, bold-italic), inli
 
 This Kotlin mini-library provides a DSL to create SMD documents. Running the program with a file path as an argument
 will generate an SMD document matching the content in example.md and save it to the specified path.
+
+## Blitz
+
+Blitz is a two-player dice game where one player is the attacker, and the other is the defender, using a single
+polyhedral die (e.g., six-sided, twenty-sided). Each round, players roll the die in turn—first the attacker, then the
+defender. The attacker may choose to re-roll once if desired, followed by the defender. The player with the higher roll
+wins the round; ties go to the attacker. The first player to reach a predetermined number of points (e.g., 3) wins the
+game. Roles do not change during a game, but switch in subsequent games for simulation purposes.
+
+The game is implemented in Kotlin, supporting different dice types and allowing players to strategize based on their
+role, the current score, and the number of points needed to win. Run simulations for different dice types and display
+logs of game progress and end-of-game statistics, including win percentages by role and player.
+
