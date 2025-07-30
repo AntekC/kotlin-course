@@ -34,7 +34,3 @@ include:
 Deploy Phase: deploy <square> to place a piece (e.g., deploy b3)
 Move Phase: move <square> <direction> to move a piece (e.g., move d2 up)
 The program provides relevant game state messages, turn information, and end-game results.
-
-The solution includes JUnit 5 tests, proper input/output handling, and clean code architecture, following Kotlin best
-practices. Submit by January 29th as a pull request from a seega-solution branch in a private fork on the faculty's
-GitLab, with the reviewer added as a collaborator.
